@@ -1,6 +1,6 @@
 // import { useState } from 'react';
 import { MessageClass } from './class-components/Message';
-import './index.css'
+import './index.css';
 
 export const App = () => {
   return (
@@ -8,5 +8,4 @@ export const App = () => {
       <MessageClass messageList={['App_props-1 ', 'App_props-2 ']} />
     </div>
   );
-}
-
+};
